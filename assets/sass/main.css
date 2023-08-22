@@ -1144,6 +1144,8 @@ form input[type=password],
 form select,
 form textarea {
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: 0;
   background: #f4f4f4;
   padding: 0.75em;
@@ -1235,6 +1237,8 @@ button,
 .button {
   transition: background-color .25s ease-in-out;
   -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   display: inline-block;
   background-color: #222222;
   color: #ffffff;
@@ -1666,14 +1670,14 @@ body.is-preload #wrapper {
 
 /* Footer */
 #footer {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(255, 255, 255, 0);
   text-align: center;
   padding: 2em 0 0 0;
   font-size: 0.75em;
 }
 #footer a {
   color: #ddd;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0);
   transition: color .25s ease-in-out;
 }
 #footer a:hover {
@@ -1687,7 +1691,7 @@ body.is-preload #wrapper {
   display: inline-block;
   padding-left: 1em;
   margin-left: 1em;
-  border-left: solid 1px rgba(255, 255, 255, 0.25);
+  border-left: solid 1px rgba(255, 255, 255, 0);
   line-height: 1;
 }
 #footer .copyright li:first-child {
